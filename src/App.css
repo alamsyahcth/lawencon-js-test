@@ -7,6 +7,48 @@
   pointer-events: none;
 }
 
+.btn-danger{
+  background-color: #f56e4d;
+  border: none;
+}
+
+.btn-danger:hover{
+  background-color: #dd5634;
+  border: none;
+}
+
+.btn-danger:focus{
+  background-color: #dd5634;
+  border: none;
+}
+
+.bg-danger{
+  background-color: #f56e4d !important;
+}
+
+.card{
+  border-radius: 0px;
+  border: none;
+}
+
+.data-datepicker{
+  width: 200% !important;
+}
+
+.banner{
+  /* The image used */
+  background:url('https://i.imgur.com/OKG0s0m.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: #f56e4d 5px solid;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
